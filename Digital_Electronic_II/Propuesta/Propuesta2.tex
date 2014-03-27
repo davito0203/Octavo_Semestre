@@ -1,0 +1,131 @@
+\documentclass[10pt,graphicx,caption,rotating]{article}
+\textheight=24cm
+\textwidth=18cm
+\topmargin=-2cm
+\oddsidemargin=0cm
+\usepackage[utf8x]{inputenc}
+\usepackage[activeacute,spanish]{babel}
+\usepackage{amssymb,amsfonts}
+\usepackage[tbtags]{amsmath}
+%7\usepackage{slashbox}
+\usepackage{pict2e}
+\usepackage{float}
+\usepackage[all]{xy}
+\usepackage{graphics,graphicx,color,colortbl}
+\usepackage{times}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{cite}
+\usepackage{url}
+\usepackage[tbtags]{amsmath}
+\usepackage{amsmath,amssymb,amsfonts,amsbsy}
+\usepackage{bm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[centerlast, small]{caption}
+\usepackage[colorlinks=true, citecolor=blue, linkcolor=blue, urlcolor=blue, breaklinks=true]{hyperref}
+
+\begin{document}
+\date{}
+{\centering \textbf{ \Large {UNIVERSIDAD NACIONAL DE COLOMBIA \\
+FACULTAD DE INGENIERÍA\[\]}}}
+\textbf{ \Large {PROGRAMA CURRICULAR DE INGENIERÍA ELECTRÓNICA}} \\ \\
+\textbf{ \Large {FORMATO PARA PRESENTACIÓN DE PROPUESTAS}}
+
+\section{PROPONENTES}
+\noindent
+David Ricardo Martínez Hernández \hspace{0.78cm} Código: $261931$\\
+Juan Sebastián Roncancio Arévalo \hspace{0.95cm} Código: $261585$
+
+\section{TITULO}
+\noindent
+Estudio fotográfico semi-profesional.
+
+\section{ÁREA}
+\noindent
+Electrónica digital II.
+
+\section{LINEA DE INVESTIGACIÓN}
+\noindent
+Electrónica digital II.
+
+\section{ANTECEDENTES Y JUSTIFICACIÓN}
+\noindent
+La fotografía ha consolidado a través de la historia la mejor forma de capturar e inmortalizar momentos y situaciones, gracias a esta técnica hemos conocido importantes pasajes de la historia, esto ha ayudado al desarrollo y evolución de nuestra sociedad. También ha sido de gran aporte en las áreas militares y científicas, además su goce y disfrute hace que emerja una gran pasión para algunas personas que encuentran en esta práctica su estilo de vida.\\
+Recordemos que la acción de inmortalizar momentos viene desde nuestros ancestros que disfrutaban el arte de plasmar dichos momentos en las paredes ``jeroglífico'' ó dejando imágenes en libros o manuscritos, los cuales han sido el primer paso para muchas investigaciones y avances significativos para la sociedad.\\
+Teniendo en cuenta que la fotografía ha tomando gran importancia, se propone el desarrollo de un estudio semi-profesional, con el fin de hacer más fácil la realización de esta práctica. Se busca controlar algunos aspectos sencillos, con los cuales el usuario puede establecer las condiciones a su gusto, para así mejorar la experiencia de la captura desde cualquier ángulo y contrastes preferidos.\\
+Como se ha logrado ver estudios especializados, este tipo de estudios no han tenido un gran auge, puesto que dicha clase de estudios solo están al alcance de personas de un alto puesto en la sociedad o poder de adquisición. Por consiguiente nuestro deber como estudiantes de la universidad más representativa del país es dar nuestro conocimiento a la sociedad y desarrollar un sistema automatizado de fotografía similar a los estudios profesionales para que puedan ser adquiridos por un mayor numero de personas y así esta profesión sea popularizada.
+
+\section{FORMULACIÓN DEL PROBLEMA}
+\noindent
+Debido al alto costo de las cámaras digitales, y al alto costo del alquiler de un estudio fotográfico, se desea dar la oportunidad a personas aficionadas a la fotografía a tomar fotos de una forma un poco más profesional sin necesidad de usar una cámara profesional, para ello se busca hacer un estudio con el uso de un dispositivo con Bluetooth y que genere archivos de imagen los cuales son bastante comunes en la actualidad (Smartphones, Ipad, Ipod, cámaras con Bluetooth, escáner, entre otros.)\\
+Se busca que este proyecto aparte de ser una meta de la asignatura, trascienda a través del tiempo sea un punto base para la reproducción, mejoramiento e implementación de este tipo de estudios.\\
+Dado que estos dispositivos modernos son muy diversos y muy comunes en la actualidad tienen una gran tecnología la cual no es aprovechada al máximo, se desea lograr que una persona aficionada a la fotografía pueda tener un estudio fotográfico mediante su dispositivo y la caja en donde se encuentra el control de l estudio.
+
+\section{OBJETIVOS}
+\subsection{General}
+\begin{itemize}
+ \item Desarrollar un estudio semi-profesional de Fotografía, tomando como cámara dispositivo con Bluetooth.
+\end{itemize}
+
+\subsection{Específicos}
+\begin{itemize}
+ \item Realizar el control de los motores por medio de unos interruptores, con dos grados de libertad.
+ \item Generar un periférico para el procesador LM32.
+ \item Realizar una visualización por medio de una LCD, para llevar el control todo el control del estudio.
+\end{itemize}
+
+\section{ALCANCE DE LOS OBJETIVOS}
+\noindent
+Realizar una propuesta alternativa para los aficionados a la fotografía, construyendo el estudio semi-profesional a un precio mas asequible aunque aún no se sabe cuanto puede llegar a costar el producto terminado y así poder construir en masa este producto y generar una industria nacional.\\
+
+
+\section{METODOLOGÍA}
+\noindent
+Lo primero que se va a realizar es el control de movimiento de las lamparas, esto se realizara por medio de un motor paso a paso y un puente H, estos motores podrán moverse de 0 a 180 grados aproximadamente lo que permitirá una buena iluminación en el estudio, también se controlara la intensidad de la luz de las lamparas para realizar la compensación de luz de la fotografía.\\
+Luego se realizara el diseño de las lamparas que se van a utilizar para la iluminación del estudio y el diseño de la silla en la que se va a presentar el producto, en este mismo periodo se realizara el control de los motores para dichas funciones.\\
+Al haber terminado el control de los motores se empezara a diseñar e implementar el control de las luces por medio del procesador, para ello se conectaran Leds los cuales serán periféricos del procesador, desde el control de los motores se agregara una entrada para controlar la intensidad de los Leds.
+
+\section{SECUENCIA Y TIPO DE ACTIVIDADES QUE SE DESARROLLARÁN}
+\noindent
+\begin{enumerate}
+ \item Control y el correcto funcionamiento de los motores para las lamparas y la silla.
+ \item Construcción de las lamparas y de la silla.
+ \item Implementación del periférico para el procesador LM32.
+ \item Control de la intensidad de las luces.
+\end{enumerate}
+
+\section{CRONOGRAMA}
+\noindent
+El tiempo que se fijó para realizar este proyecto se puede apreciar en el cuadro \ref{tab1}.
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline
+\multicolumn{1}{|c|}{Tareas} & \multicolumn{14}{|c|}{Semanas} \\ \hline
+ & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\ \hline
+Control Motores & & & & & & & & \cellcolor{black} & \cellcolor{black} & & & & & \\ \hline
+Construcción Lamparas y Silla & & & & & & & & & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} & & & \\ \hline
+Periférico & & & & & & & & & & & \cellcolor{black} & \cellcolor{black} & & \\ \hline
+Luces & & & & & & & & & & & & \cellcolor{black} & \cellcolor{black}  & \\ \hline
+    \end{tabular}
+	\caption{Cronograma de actividades a seguir}
+	\label{tab1}
+\end{table}
+
+\section{NUMERO DE ESTUDIANTES}
+\noindent
+En este proyecto trabajaremos dos ($2$) estudiantes.
+  
+\begin{thebibliography}{99}
+\bibitem{harris} Harris, David \& Harris, Sarah.
+{\em "`Digital desing and computer architecture"'}.
+Pretince Hall, 2003.
+
+\bibitem{Katz} Katz J David
+{\em "`Embedded Media Processing"'}.
+Rick gentile Newnes cap [5]
+\end{thebibliography}
+\end{document}

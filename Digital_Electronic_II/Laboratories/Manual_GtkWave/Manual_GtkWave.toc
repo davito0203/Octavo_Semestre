@@ -1,0 +1,12 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}\IeC {\textquestiondown }Qu\IeC {\'e} es GTKWave?}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}Men\IeC {\'u} de funciones GTKWave}{2}{section.2}
+\contentsline {section}{\numberline {3}Interfaz de usuario GTKWave}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Cargar se\IeC {\~n}ales seleccionadas de la simulaci\IeC {\'o}n anterior}{4}{subsection.3.1}
+\contentsline {section}{\numberline {4}Com\IeC {\'o} funciona GTKWave}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}\IeC {\textquestiondown }Como encontrar el dato que se requiere en la simulaci\IeC {\'o}n?}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}\IeC {\textquestiondown }Como se puede guardar la simulaci\IeC {\'o}n en un archivo de imagen o PDF?}{7}{subsection.4.2}
+\contentsline {section}{\numberline {5}Ejemplos}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Ejemplo 1}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Ejemplo 2}{8}{subsection.5.2}

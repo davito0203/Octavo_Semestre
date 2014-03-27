@@ -1,0 +1,134 @@
+\documentclass[10pt,graphicx,caption,rotating]{article}
+\textheight=24cm
+\textwidth=18cm
+\topmargin=-2cm
+\oddsidemargin=0cm
+\usepackage[utf8x]{inputenc}
+\usepackage[activeacute,spanish]{babel}
+\usepackage{amssymb,amsfonts}
+\usepackage[tbtags]{amsmath}
+%\usepackage{slashbox}
+\usepackage{pict2e}
+\usepackage{float}
+\usepackage[all]{xy}
+\usepackage{graphics,graphicx,color,colortbl}
+\usepackage{times}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{cite}
+\usepackage{url}
+\usepackage[tbtags]{amsmath}
+\usepackage{amsmath,amssymb,amsfonts,amsbsy}
+\usepackage{bm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[centerlast, small]{caption}
+\usepackage[colorlinks=true, citecolor=blue, linkcolor=blue, urlcolor=blue,
+breaklinks=true]{hyperref}
+
+\begin{document}
+\date{}
+{\centering \textbf{ \Large {UNIVERSIDAD NACIONAL DE COLOMBIA \\
+FACULTAD DE INGENIERÍA\[\]}}}
+\textbf{ \Large {PROGRAMA CURRICULAR DE INGENIERÍA ELECTRÓNICA}} \\ \\
+\textbf{ \Large {FORMATO PARA PRESENTACIÓN DE PROPUESTAS}}
+
+\section{PROPONENTES}
+\noindent
+David Ricardo Martínez Hernández \hspace{0.78cm} Código: $261931$\\
+Juan Sebastián Roncancio Arévalo \hspace{0.95cm} Código: $261585$
+
+\section{TITULO}
+\noindent
+Analizador de espectro de audio por medio de una FPGA.
+
+\section{ÁREA}
+\noindent
+Electrónica digital II.
+
+\section{LINEA DE INVESTIGACIÓN}
+\noindent
+Electrónica digital II.
+
+\section{ANTECEDENTES Y JUSTIFICACIÓN}
+\noindent
+Desde el  inicio de las comunicaciones se ha venido dando un desarrollo muy importante al análisis de audio ya que es muy importante en el área de las comunicaciones. Gracias a este  avance se han alcanzado grandes desarrollos en la transmisión de audio a diferentes medios; ya que esta etapa de análisis es el preámbulo para la manipulación de las señales de audio.\\
+Dado que el cuerpo humano se puede observar como una interconexión de sistemas dependientes, la forma más adecuada de llevar una vida estable es cuando el cuerpo humano se encuentra en armonía; es decir que todos los componentes que hacen parte de este sistema deben encontrarse en perfecto estado.
+Para este caso en particular lo que se desea es prevenir que el sistema auditivo empiece a fallar debido al mal uso de la tecnología.
+
+\section{FORMULACIÓN DEL PROBLEMA}
+\noindent
+Dada la gran demanda tecnológica que se ha venido presentando en los últimos años y a la desmesurada adquisición de dispositivos de audio portables, se ve una gran necesidad de determinar la manera adecuada en la que se deben utilizar estos dispositivos, basándose en los resultados obtenidos en el analizador de espectro de audio y comparándolos con los valores máximos que puede soportar el oído humano.
+
+\section{OBJETIVOS}
+\subsection{General}
+\begin{itemize}
+ \item Generar una herramienta para analizar el espectro de una señal de audio.
+\end{itemize}
+
+\subsection{Específicos}
+\begin{itemize}
+ \item Determinar que señales son nocivas para la salud humana comparándola con las tablas establecidas por la Organización Mundial de la Salud.
+ \item Alertar al usuario en el momento en que la señal de audio es nociva para la salud.
+ \item Presentar la visualización de una forma en la que se pueda ver la naturaleza de la señal.
+\end{itemize}
+
+\section{ALCANCE DE LOS OBJETIVOS}
+\noindent
+Mejorar la calidad de vida de los seres humanos. Previniendo enfermedades auditivas.\\
+Gracias al desarrollo de este dispositivo se adquirirá conocimiento que ayudara a la formación académica, ya que es una gran área de investigación.
+
+\section{METODOLOGÍA}
+\noindent
+El desarrollo del proyecto se llevara a cabo de acuerdo a un procedimiento preestablecido, para esto se deberá tomar toda la documentación pertinente para poder comprender el funcionamiento del dispositivo, luego de tener una documentación y conocimientos sólidos acerca del área de investigación se procederá a realizar la obtención del sonido para su posterior procesamiento lo cual se realizara con dispositivos electrónicos como tarjetas de desarrollo y algunos circuitos integrados.\\
+En la parte del procesamiento se filtrara la señal y se le transformada de Fourier para dividirla en diferentes frecuencias y así obtener el espectro de dicha señal, esta señal discretizada y filtrada se visualizara primero en un osciloscopio y luego se  mostrara en un LCD o matriz de leds.
+
+\section{SECUENCIA Y TIPO DE ACTIVIDADES QUE SE DESARROLLARÁN}
+\noindent
+\begin{enumerate}
+ \item Documentación
+ \item Obtención del sonido
+ \item Procesamiento del sonido.
+ \item Visualización.
+\end{enumerate}
+
+
+\section{CRONOGRAMA}
+\noindent
+El tiempo que se fijó para realizar este proyecto se puede apreciar en el cuadro \ref{tab1}.
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline
+\multicolumn{1}{|c|}{Tareas} & \multicolumn{14}{|c|}{Semanas} \\ \hline
+ & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\ \hline
+Documentación & & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} & & & & & & & & & \\ \hline
+Adquisición de Partes & & & & & & \cellcolor{black} & \cellcolor{black} & & & & & & & \\ \hline
+Pruebas Y Mejoras & & & & & & & & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} & & & & \\ \hline
+Desafio & & & & & & & & & & & \cellcolor{black} & & & \\ \hline
+Entrega & & & & & & & & & & & & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} \\ \hline
+    \end{tabular}
+	\caption{Cronograma de actividades a seguir}
+	\label{tab1}
+\end{table}
+
+\section{NUMERO DE ESTUDIANTES}
+\noindent
+En este proyecto trabajaremos dos estudiantes.
+
+\begin{thebibliography}{99}
+\bibitem{harris} Harris, David \& Harris, Sarah.
+{\em "`Digital desing and computer architecture"'}.
+Pretince Hall, 2003.
+
+\bibitem{Katz} Katz J David
+{\em "`Embedded Media Processing"'}.
+Rick gentile Newnes cap [5]
+
+\bibitem{proakis} Proakis J., Manolakis, D.
+{\em "`Digital Signal Processing: principles, algorithms and applications"'}.
+Prentice Hall. 1996.
+\end{thebibliography}
+\end{document} 
